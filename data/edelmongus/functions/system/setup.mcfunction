@@ -1,0 +1,3 @@
+function edelmongus:team/setup
+
+
