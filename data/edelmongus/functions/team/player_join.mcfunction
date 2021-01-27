@@ -1,3 +1,3 @@
-team join edelmongus @s
+team join crewmates @s
 
 function edelmongus:team/team_count

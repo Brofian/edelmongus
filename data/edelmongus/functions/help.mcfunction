@@ -1,0 +1,5 @@
+tellraw @p ["",{"text":"-------------------","bold":true,"strikethrough":true,"color":"dark_red"}]
+tellraw @p ["",{"text":"Edelmong Us - Hilfe","bold":true,"color":"dark_red"}]
+tellraw @p ["",{"text":"-------------------","bold":true,"strikethrough":true,"color":"dark_red"}]
+tellraw @p ["",{"text":"- Diese Hilfe anzeigen: ","color":"red"}]
+tellraw @p ["",{"text":"/function edelmongus:help","color":"gray","clickEvent":{"action":"suggest_command","value":"/function edelmongus:help"}}]
