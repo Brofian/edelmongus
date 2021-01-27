@@ -5,7 +5,6 @@
 # dx,dy,dz = the volume that expands from this edge (cant be negative!!!)
 
 
+execute as @a[team=!crewmates] if entity @s[x=-1153,y=12,z=108,dx=266,dy=50,dz=246] if entity @s[team=!imposter] run function edelmongus:team/player_join
 
-execute as @a[team=!crewmates] if entity @s[x=-415,y=54,z=-78,dx=5,dy=5,dz=6] if entity @s[team=!imposter] run function edelmongus:team/player_join
-
-execute as @a[team=crewmates] unless entity @s[x=-415,y=54,z=-78,dx=5,dy=5,dz=6] run function edelmongus:team/player_leave
+execute as @a[team=crewmates] unless entity @s[x=-1153,y=12,z=108,dx=266,dy=50,dz=246] run function edelmongus:team/player_leave
