@@ -1,6 +1,6 @@
 # Create and configure the crewmate team
 team add crewmates
-team modify crewmates nametagVisibility always
+team modify crewmates nametagVisibility never
 
 
 
