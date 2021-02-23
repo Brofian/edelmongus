@@ -1,5 +1,5 @@
 # Show the crewmate, that he was hit
-title @a[team=crewmate,scores={edelmongus_dmg=1..},limit=1] title [{"text":"Killed","color":"dark_red"}]
+title @a[team=crewmates,scores={edelmongus_dmg=1..},limit=1] title [{"text":"Killed","color":"dark_red"}]
 
 
 # Set the impostor cooldown to 30sek (600 Ticks)

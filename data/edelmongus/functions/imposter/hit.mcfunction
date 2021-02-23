@@ -10,7 +10,5 @@ scoreboard players remove @a[scores={edelmongus_hit_c=1..}] edelmongus_hit_c 1
 execute as @a[team=imposter,scores={edelmongus_hit_c=1..}] run function edelmongus:imposter/cooldown
 
 # Always reset the detection scoreboards
-scoreboard players reset @a[team=crewmates] edelmongus_dmg
-scoreboard players reset @a[team=imposter] edelmongus_dmg
-scoreboard players reset @a[team=crewmates] edelmongus_hit
-scoreboard players reset @a[team=imposter] edelmongus_hit
+#scoreboard players set @a edelmongus_dmg 0
+scoreboard players set @a edelmongus_hit 0
